@@ -12,4 +12,12 @@ Template pipleine and Dockerfile for a MATLAB project
     2. `eeglab_psd_pipeline('eeglab/sample_data/eeglab_data.set', 'test.csv', 100, 200)`
     3. This should make a `test.csv` file
     4. Compare against `working_test.csv` as ground truth
-
+* Write command line wrapper
+  * This is what external tools will use to interface with the pipeline
+  * Allows you to validate fields and informs what to make into boutiques parameters
+  * To test do:
+    1. `addpath eeglab;`
+    2. eeglab_psd_cli('eeglab/sample_data/eeglab_data.set', 'test.csv', 100, 200)`
+    3. This should make a `test.csv` file
+    4. Compare against `working_test.csv` as ground truth
+  * In this case, it may seem redundant to create wrapper script. Howevever, this is where you can introduce optional parameters, defaults, and more.
