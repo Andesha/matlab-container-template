@@ -3,6 +3,8 @@ function eeglab_psd_cli(varargin)
 % Usage:
 %   eeglab_psd_cli input.set output.csv tmin_sec tmax_sec
 
+    addpath eeglab;
+
     if numel(varargin) ~= 4
         error(['Usage: eeglab_psd_cli <input.set> <output.csv> ' ...
                '<tmin_sec> <tmax_sec>']);
