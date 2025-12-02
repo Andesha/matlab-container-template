@@ -1,6 +1,6 @@
 # matlab-container-template
 
-Template pipleine and Dockerfile for a MATLAB project
+Template pipleine and Dockerfile for a MATLAB project developed for EEGNet.org
 
 # Building a Sample Pipeline
 
