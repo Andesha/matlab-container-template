@@ -1,4 +1,4 @@
-# matlab-container-template
+# EEGNet Matlab Container Template
 
 Template pipleine and Dockerfile for a MATLAB project developed for EEGNet.org
 
