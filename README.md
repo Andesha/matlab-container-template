@@ -1,6 +1,6 @@
 # EEGNet Matlab Container Template
 
-Template pipleine and Dockerfile for a MATLAB project developed for EEGNet.org
+Template pipleine and docker building instructions for a MATLAB project developed for [EEGNet.org](https://eegnet.org/)
 
 # Building a Sample Pipeline
 
