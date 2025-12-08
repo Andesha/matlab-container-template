@@ -2,9 +2,13 @@
 
 Template pipleine and docker building instructions for a MATLAB project developed for [EEGNet.org](https://eegnet.org/)
 
+The intention of this template is to provide a starting point, where a developer can replace files and scripts with their own code.
+
 # Building a Sample Pipeline
 
-* Clone down your own version of EEGLAB and install whatever plugins and things you need
+* Clone down your own version of [EEGLAB](https://github.com/sccn/eeglab/) and install whatever plugins and things you need
+  * Presumably, any other processing pipeline could also work
+  * To avoid bloat, this template only accepts `.set` files
 * Create main pipeline processing function
   * In this case `eeglab_psd_pipeline.m` does all loading, processing, and saving
   * This function should be tested within MATLAB and work smoothly
